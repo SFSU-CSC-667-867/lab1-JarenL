@@ -21,6 +21,12 @@ obj.a = 9;
 
 // declare an object with an object as a property
 
+const testVar = { thing : 'hello'}
+
 // delete a property
 
+testVar.thing = null;
+
 // change a property
+
+testVar.thing = 'bye'
